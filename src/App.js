@@ -1,25 +1,32 @@
-import logo from './logo.svg';
 import './App.css';
 import {Route, Routes } from "react-router-dom";
 import Navbar from "./components/Navbar/Navbar";
+import Head from "./components/Head/Head";
 
 
 import Home from "./pages/Home";
 import About from "./pages/About";
 import Contactar from "./pages/Contactar";
-import Pages from "./pages/Products";
+import Usuarios_din from "./pages/Usuarios_din";
 import Usuarios from "./pages/Usuarios";
 
 function App() {
+ 
   return (
-    <div className="App">
-      <header className="App-header">
+    <>
+    <Head title="Tienda Virtual" />
+    <Navbar />
 
-        <h1>Tienda Virtual</h1>
-        <img src={logo} className="App-logo" alt="logo" />
-        
-      </header>
-    </div>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/about" element={<About />} />
+        <Route path="/contactar" element={<Contactar />} />
+        <Route path="/Usuarios_din" element={<Usuarios_din />} />
+        <Route path="/Usuarios" element={<Usuarios />} />
+
+      </Routes>
+  
+    </>
   );
 }
 

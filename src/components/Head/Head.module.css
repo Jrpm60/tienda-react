@@ -1,0 +1,19 @@
+.headContainer {
+  background-color: #35d485;
+  padding: 5px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center; 
+}
+
+.headContainer h1 {
+  color: black;
+  margin: 0; 
+  margin-left: 50px;
+}
+
+
+.logo img {
+  height: 50px;
+}
