@@ -1,14 +1,15 @@
 .headContainer {
-  background-color: #35d485;
+  background-image: url(../../assets/Tienda_virtual.PNG);
   padding: 5px;
   text-align: center;
   display: flex;
   align-items: center;
   justify-content: center; 
+
 }
 
 .headContainer h1 {
-  color: black;
+  color: rgb(100, 40, 168);
   margin: 0; 
   margin-left: 50px;
 }

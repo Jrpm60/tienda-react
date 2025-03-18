@@ -2,8 +2,8 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: #333;
-  padding: 5px 25px;
+  background-color: #a6abdd;
+  padding: 1px 25px;
 }
 
 .logo img {
