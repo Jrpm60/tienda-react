@@ -22,7 +22,7 @@ const Usuarios = () => {
         {users.map(user => (
 
           <li key={user.nombre}>{user.nombre}
-          <Link to={`/usuarios_din/${user.id}`}> Ir al Usuario </Link>
+          <Link to={`/`}> Ir al Usuario </Link>
           </li>
         ))}
 

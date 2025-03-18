@@ -7,7 +7,6 @@ import Head from "./components/Head/Head";
 import Home from "./pages/Home";
 import About from "./pages/About";
 import Contactar from "./pages/Contactar";
-import Usuarios_din from "./pages/Usuarios_din";
 import Usuarios from "./pages/Usuarios";
 
 function App() {
@@ -21,7 +20,6 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
         <Route path="/contactar" element={<Contactar />} />
-        <Route path="/Usuarios_din" element={<Usuarios_din />} />
         <Route path="/Usuarios" element={<Usuarios />} />
 
       </Routes>

@@ -1,70 +1,31 @@
-# Getting Started with Create React App
+Directrices para el Proyecto de ReactJS: Tienda Virtual
+Objetivo: Los estudiantes deberán desarrollar una aplicación ReactJS que consuma la API pública Fakestore API y muestre productos, usuarios y/o un carrito de compras.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+El proyecto debe incluir:
 
-## Available Scripts
+un formulario
+mostrar un producto, usuario o carrito
+mostrar muchos productos, usuarios o carrito (incluyendo imágenes)
+ser visualmente atractivo
+https://fakestoreapi.com/
 
-In the project directory, you can run:
+Requisitos de la gestion
+Trabajo en equipo: Dividan las tareas en el equipo. Pueden asignar responsabilidades específicas como la creación de componentes, el manejo del estado, la integración de la API, el diseño, etc.
 
-### `npm start`
+Uso de GitHub: Cada miembro debe trabajar en su propia rama. Realicen push y commits frecuentes. Utilicen un workflow de Pull Requests para las revisiones y fusionen las ramas solo después de la aprobación del código.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Revisión por parte de ChatGPT: Antes de la revisión final de código, cada equipo puede usar la IA para recibir comentarios y sugerencias sobre la estructura del proyecto, el código y la implementación. Se aconseja no usarlo en el desarrollo.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Historia de Usuarios (User Stories): Los equipos deben crear una lista de historias de usuarios o pitches para guiar el desarrollo del proyecto. Ejemplo de historias de usuario:
 
-### `npm test`
+"Como usuario, quiero poder buscar productos por nombre para encontrar lo que necesito."
+El equipo debe desarrollar estas historias en orden de prioridad.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Scrum: Usando una metodologia agíl, planificar y ejecutar el proyecto. Deberian incluir (readme.md) una reflexión del proyecto.
 
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Evaluación:
+Funcionalidad: ¿Cumple con los requisitos básicos y adicionales?
+Estilo Visual: ¿Es atractiva y está bien organizada la interfaz?
+Colaboración: ¿Se ha seguido un buen flujo de trabajo en equipo?
+Código Limpio: ¿El código está bien estructurado, es legible y sigue las mejores prácticas de React?
+DEMO (profesor) Mostrar los propiedades de configuración del proyecto de github para workflow de commits
