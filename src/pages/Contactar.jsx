@@ -7,11 +7,12 @@ const Contactar = () =>  {
 
     return (
         <>
-        <h1>Contactar</h1>
-
-        <div >
-        <img src={logo} alt="Logo" />
+        
+        <div className='main'>
+        <h1>About Us</h1>
         </div>
+
+
         
        
         </>

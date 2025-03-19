@@ -3,7 +3,9 @@ import { Link } from "react-router-dom";
 
 const Home = () => {
     return (
-        <div>
+
+         <div className='main'>
+            <p>Bienvenido a la página de inicio.</p>
             <h1>TIENDA VIRTUAL</h1>
 
             <div id="contenedor">

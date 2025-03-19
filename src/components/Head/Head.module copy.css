@@ -1,0 +1,20 @@
+.headContainer {
+  background-image: url(../../assets/Tienda_virtual.PNG);
+  padding: 5px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center; 
+
+}
+
+.headContainer h1 {
+  color: rgb(100, 40, 168);
+  margin: 0; 
+  margin-left: 50px;
+}
+
+
+.logo img {
+  height: 50px;
+}
