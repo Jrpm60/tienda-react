@@ -2,6 +2,7 @@ import './App.css';
 import {Route, Routes } from "react-router-dom";
 import Navbar from "./components/Navbar/Navbar";
 import Head from "./components/Head/Head";
+import Footer from "./components/Footer/Footer";
 
 
 import Home from "./pages/Home";
@@ -25,6 +26,8 @@ function App() {
         <Route path="/Usuarios" element={<Usuarios />} />
 
       </Routes>
+
+    <Footer title=" ©️ Iñigo Bermejo & Jose R. Pablo" />
   
     </>
   );

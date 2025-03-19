@@ -14,7 +14,9 @@ const Usuarios = () => {
   ];
 
   return (
-    <div>
+    
+    <div className='main'>
+
       <h1>Lista de Usuarios</h1>
       
       <ul>

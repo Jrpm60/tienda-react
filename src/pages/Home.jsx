@@ -4,7 +4,7 @@ import Head from "../components/Head/Head";
 
 const Home = () => {
     return (
-        <div>
+        <div className='main'>
             <p>Bienvenido a la página de inicio.</p>
         </div>
     );
