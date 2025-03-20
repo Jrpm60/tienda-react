@@ -18,7 +18,10 @@ const Navbar = () => {
         <li><Link to="/contactar">Contactar</Link></li>
         <li><Link to="/products">Productos</Link></li>
         <li><Link to="/usuarios">Usuarios</Link></li>
-        <li><Link to="/carrito">🛒</Link></li>
+        <li><Link to="/carrito">Carrito 🛒</Link></li>
+
+
+
         
       </ul>
     </nav>

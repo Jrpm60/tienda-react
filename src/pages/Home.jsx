@@ -11,6 +11,7 @@ import productC from "../assets/productC.png";
 
 const Home = () => {
     return (
+
         <div className='main' style={{ position: 'relative' }}>
             <div className='banner-left'>
                 <div className="banner">
@@ -27,6 +28,22 @@ const Home = () => {
                     <img src={productB} alt="Producto B" />
                     <img src={product2} alt="Producto 2" />
                     <img src={productC} alt="Producto C" />
+
+
+         <div className='main'>
+            <p>Bienvenido a la página de inicio.</p>
+            <h1>TIENDA VIRTUAL</h1>
+
+            <div id="contenedor">
+                <div id="link-titulo" className="caja">
+                    <Link to="/titulo">Ver todos los productos por título.</Link>
+                </div>
+                <div id="link-categorias" className="caja">
+                    <Link to="/categorias">Seleccionar producto por categorías.</Link>
+
+                </div>
+                <div id="link-carrito" className="caja">
+                    <Link to="/carrito">Productos almacenados en el carrito.</Link>
                 </div>
             </div>
 
@@ -42,4 +59,6 @@ const Home = () => {
 };
 
 export default Home;
+
+
 
