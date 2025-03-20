@@ -16,8 +16,15 @@ const Usuarios = () => {
   ];
 
   return (
+
     <div className="usuarios-container">
       <h1 className="usuarios-title">Lista de Usuarios</h1>
+
+    
+    <div className='main'>
+
+      <h1>Lista de Usuarios</h1>
+
       
       <ul className="usuarios-list">
         {users.map(user => (

@@ -205,30 +205,8 @@
   background-color: #0056b3;
 }
 
-/* Carrito */
-.cart {
-  margin-top: 20px;
-  padding: 15px;
-  border: 1px solid #ddd;
-  border-radius: 8px;
-  background-color: #f9f9f9;
-}
 
-.cart h2 {
-  font-size: 20px;
-  color: #333;
-}
 
-.cart ul {
-  list-style: none;
-  padding: 0;
-}
-
-.cart li {
-  font-size: 16px;
-  color: #555;
-  margin-bottom: 10px;
-}
 /* ////////CSS CARRITO///////////////////////////////////////////////////////////////////////////////ç */
 
 
@@ -330,67 +308,4 @@
 
 #payment-button:hover {
   background-color: #218838; /* Verde más oscuro */
-}
-
-
-/* HOME/////////////////////////////////////////////////////////////////////////////////////////////////////////// */
-
-#contenedor {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 20px;
-  margin-top: 20px;
-}
-
-.caja {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 40px;
-  background-color: #f0f0f0;
-  border: 2px solid #ccc;
-  border-radius: 8px;
-  text-align: center;
-  transition: transform 0.3s ease, background-color 0.3s ease;
-  cursor: pointer;
-}
-
-.caja a {
-  text-decoration: none;
-  color: #333;
-  font-size: 1.2em;
-  font-weight: bold;
-  transition: color 0.3s ease;
-}
-
-/* Estilos para el primer y segundo elemento en la fila */
-#link-titulo {
-  background-color: #ffcc00;
-  
-}
-
-#link-categorias {
-  background-color: #4caf50;
-}
-
-/* Estilo para el tercer elemento centrado en la fila */
-#link-carrito {
-  background-color: #2196f3;
-  grid-column: span 2;  /* Hace que ocupe toda la fila inferior */
-  width: 700px;
-  margin-left: 300px;
-}
-
-/* Efectos Hover */
-.caja:hover {
-  transform: scale(1.05);
-  background-color: #ddd;
-}
-
-.caja:hover a {
-  color: #000;
-}
-
-.caja a:hover {
-  color: #fff;
 }
