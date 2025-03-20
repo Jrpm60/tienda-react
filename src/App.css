@@ -40,10 +40,18 @@
 
 /* Ajuste del contenido principal */
 .main {
-  margin-top: 150px; /* Ajustado para reflejar la altura combinada del header y navbar */
+  margin-top: 110px;
+  text-align: center;
+  background-color: #555;
+  background-image: url(assets/Fondo_Azul.jpg);
+  background-repeat: unset;
+  background-size: contain; 
+  width: 100%; /* Ocupa todo el ancho disponible */
+  min-height: 500px; 
+  height: 800px; 
 }
 
-/* Contenedor de los botones principales */
+/* Botones principales */
 .buttons-container {
   text-align: center; /* Centra los botones */
   margin-bottom: 20px;
@@ -110,14 +118,14 @@
 }
 
 .product-image {
-  max-width: 100%;
+  max-width: 50%;
   height: auto;
   margin-bottom: 10px;
   border-radius: 8px;
 }
 
 .product-card h2 {
-  font-size: 18px;
+  font-size: 14px;
   color: #333;
 }
 
@@ -248,6 +256,49 @@
   color: #555;
 }
 
+/* .main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  position: relative;
+} */
+
+.banner-left, .banner-right {
+  position: absolute;
+  top: 1%;
+  width: 300px;
+  height: 90%;
+  overflow: hidden;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+.banner-left {
+  left: 0;
+}
+
+.banner-right {
+  right: 0;
+}
+
+.banner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: start;
+  position: relative;
+  animation: scroll 10s linear infinite;
+}
+
+@keyframes scroll {
+  0% {
+      transform: translateY(0%);
+  }
+  100% {
+      transform: translateY(-50%);
+  }
+
 /* Imagen del producto en el carrito */
 .cart-item img {
   width: 50px;
@@ -271,26 +322,7 @@
   background-color: #c82333;
 }
 
-/* Botón de finalizar compra */
-.checkout-button {
-  display: block;
-  width: 100%;
-  padding: 10px;
-  background-color: #28a745;
-  color: white;
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
-  font-size: 16px;
-  margin-top: 15px;
-}
 
-.checkout-button:hover {
-  background-color: #218838;
-}
-
-#empty-cart-button{
-  background-color: orange;
 }
 
 /* METODOPAGO///////////////////////////////////////////////////////////////////////////////////////////////// */
@@ -308,4 +340,5 @@
 
 #payment-button:hover {
   background-color: #218838; /* Verde más oscuro */
+
 }

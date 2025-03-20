@@ -15,6 +15,7 @@ import Carrito from "./pages/Carrito";
 
 import { useState } from "react";
 
+
 function App() {
   const [carrito, setCarrito] = useState([]);
 
@@ -28,7 +29,7 @@ function App() {
 
   return (
     <>
-      <Head title="Tienda Virtual" />
+      <Head title="Aprovecha las mejores ofertas al alcance de tu mano...." />
       <Navbar />
 
       <Routes>
