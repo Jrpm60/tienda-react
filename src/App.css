@@ -45,13 +45,13 @@
   background-color: #555;
   background-image: url(assets/Fondo_Azul.jpg);
   background-repeat: unset;
-  background-size: contain; /* Asegura que la imagen sea visible sin recorte */
+  background-size: contain; 
   width: 100%; /* Ocupa todo el ancho disponible */
-  min-height: 500px; /* Define un tamaño mínimo */
-  height: 800px; /* Altura ajustada al contenido */
+  min-height: 500px; 
+  height: 800px; 
 }
 
-/* Contenedor de los botones principales */
+/* Botones principales */
 .buttons-container {
   text-align: center; /* Centra los botones */
   margin-bottom: 20px;
@@ -118,14 +118,14 @@
 }
 
 .product-image {
-  max-width: 100%;
+  max-width: 50%;
   height: auto;
   margin-bottom: 10px;
   border-radius: 8px;
 }
 
 .product-card h2 {
-  font-size: 18px;
+  font-size: 14px;
   color: #333;
 }
 

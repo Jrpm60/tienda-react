@@ -32,7 +32,7 @@ const Home = () => {
 
             <h3>Bienvenido a</h3>
             <img src={logo} alt="Logo" />
-            <h1>Tu mejor experiencia de 'Surfer Shopping' en la red...</h1>
+            <h1>Tu experiencia de 'Surfer Shopping' en la red...</h1>
 
             <video width="800" height="400" controls loop autoPlay muted>
                 <source src={video} type="video/mp4" />

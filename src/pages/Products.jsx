@@ -13,7 +13,7 @@ const Products = () => {
           className="products-button" 
           onClick={() => setCategoriaSeleccionada("")} // Mostrar todos los productos
         >
-          Cargar Todos los Productos
+          Ver Productos
         </button>
         <SelectCategorias onCategoriaChange={setCategoriaSeleccionada} />
       </div>

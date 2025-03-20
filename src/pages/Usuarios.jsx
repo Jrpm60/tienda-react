@@ -8,9 +8,14 @@ import { useParams } from 'react-router-dom';
 const Usuarios = () => {
 
   const users = [
-    { id: 1, nombre: 'Juan Pérez', edad: 28 },
-    { id: 2, nombre: 'Ana García', edad: 34 },
-    { id: 3, nombre: 'Carlos López', edad: 22 },
+    { id: 1, nombre: 'Iñigo Bermejo'},
+    { id: 2, nombre: 'Alvaro Jimenez'},
+    { id: 3, nombre: 'Dana Duarte'},
+    { id: 4, nombre: 'Jason Rodriguez'},
+    { id: 5, nombre: 'Eddie Vera'},
+    { id: 6, nombre: 'Ixchel Chavez'},
+    { id: 7, nombre: 'Joussef Medmourh'},
+    { id: 8, nombre: 'Luis Zamora'},
   ];
 
   return (
@@ -24,7 +29,7 @@ const Usuarios = () => {
         {users.map(user => (
 
           <li key={user.nombre}>{user.nombre}
-          <Link to={`/`}> Ir al Usuario </Link>
+          
           </li>
         ))}
 
