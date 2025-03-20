@@ -2,13 +2,14 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: #a6abdd;
+  background-color: white;
   padding: 0px 0px; /* Incrementé el padding para un diseño más equilibrado */
   position: fixed; /* Fija la posición de la navbar */
   top: 60px; /* Asegúrate de ajustar esto dependiendo de la altura del header */
   left: 0;
   width: 100%;
   z-index: 999; /* Asegura que la navbar esté en el frente, pero debajo del header */
+  
   
 }
 
@@ -28,7 +29,7 @@
 
 .navLinks a {
   text-decoration: none;
-  color: white;
+  color: rgb(136, 62, 206);
   font-weight: bold;
   transition: color 0.3s ease-in-out;
 }

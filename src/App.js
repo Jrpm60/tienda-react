@@ -12,10 +12,11 @@ import Usuarios from "./pages/Usuarios";
 import Titulo from "./pages/Titulo"; // ✅ Nueva página
 import Categorias from "./pages/Categorias"; // ✅ Nueva página
 
+
 function App() {
   return (
     <>
-      <Head title="Tienda Virtual" />
+      <Head title="Aprovecha las mejores ofertas al alcance de tu mano...." />
       <Navbar />
 
       <Routes>

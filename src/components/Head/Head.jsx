@@ -8,7 +8,7 @@ function Head({ title }) {
         <div className={styles.logo}>
         <img src={logo} alt="Logo" />
       </div>
-      <h1>{title}</h1>
+      <h3>{title}</h3>
       
     </header>
   );

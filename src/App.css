@@ -40,7 +40,15 @@
 
 /* Ajuste del contenido principal */
 .main {
-  margin-top: 150px; /* Ajustado para reflejar la altura combinada del header y navbar */
+  margin-top: 110px;
+  text-align: center;
+  background-color: #555;
+  background-image: url(assets/Fondo_Azul.jpg);
+  background-repeat: unset;
+  background-size: contain; /* Asegura que la imagen sea visible sin recorte */
+  width: 100%; /* Ocupa todo el ancho disponible */
+  min-height: 500px; /* Define un tamaño mínimo */
+  height: 800px; /* Altura ajustada al contenido */
 }
 
 /* Contenedor de los botones principales */
@@ -230,3 +238,46 @@
   margin-bottom: 10px;
 }
 
+/* .main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  position: relative;
+} */
+
+.banner-left, .banner-right {
+  position: absolute;
+  top: 1%;
+  width: 300px;
+  height: 90%;
+  overflow: hidden;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+.banner-left {
+  left: 0;
+}
+
+.banner-right {
+  right: 0;
+}
+
+.banner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: start;
+  position: relative;
+  animation: scroll 10s linear infinite;
+}
+
+@keyframes scroll {
+  0% {
+      transform: translateY(0%);
+  }
+  100% {
+      transform: translateY(-50%);
+  }
+}

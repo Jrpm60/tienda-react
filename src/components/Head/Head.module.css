@@ -1,5 +1,5 @@
 .headContainer {
-  background-image: url(../../assets/Tienda_virtual.PNG);
+  background-image: url(../../assets/Fondo_Azul.jpg);
   padding: 5px;
   text-align: center;
   display: flex;
@@ -10,12 +10,12 @@
   left: 0; /* Fija la posición al inicio horizontal */
   width: 100%; /* Asegura que el header ocupe todo el ancho */
   z-index: 1000; /* Se asegura de que el header quede en el frente */
-  background-size: cover; /* Ajusta la imagen de fondo para que cubra el espacio */
-  background-repeat: no-repeat; /* Evita que la imagen de fondo se repita */
+  background-size: auto; /* Ajusta la imagen de fondo para que cubra el espacio */
+  background-repeat: auto; /* Evita que la imagen de fondo se repita */
 }
 
-.headContainer h1 {
-  color: rgb(100, 40, 168);
+.headContainer h3 {
+  color: rgb(238, 53, 53);
   margin: 0; 
   margin-left: 50px;
 }
