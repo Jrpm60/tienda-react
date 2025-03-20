@@ -2,7 +2,6 @@ import React from 'react';
 import { Link } from "react-router-dom";
 
 const About = () => {
-
   return (
     <>
       <h1>Sobre Nosotros</h1>
@@ -24,15 +23,6 @@ const About = () => {
         <p>
           Nuestro equipo está formado por profesionales apasionados que trabajan cada día para ofrecerte una experiencia de compra segura, fácil y rápida. Ya sea que busques un regalo especial o simplemente necesites un artículo para tu día a día, estamos aquí para ayudarte. No dudes en ponerte en contacto con nosotros si tienes alguna duda o necesitas asistencia en tu compra.
         </p>
-
-    return (
-        <>
-        <div className='main'>
-        <h1>About Us</h1>
-        </div>
-        
-        </>
-    )
 
 
         <Link to="/contactar" className="contact-link">Contáctanos</Link>

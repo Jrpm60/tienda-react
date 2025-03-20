@@ -9,9 +9,8 @@ import About from "./pages/About";
 import Contactar from "./pages/Contactar";
 import Products from "./pages/Products";
 import Usuarios from "./pages/Usuarios";
-import Titulo from "./pages/Titulo"; 
-import Categorias from "./pages/Categorias"; 
 import Carrito from "./pages/Carrito";
+import Titulo from "./pages/Titulo";
 
 import { useState } from "react";
 
@@ -36,16 +35,14 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
         <Route path="/contactar" element={<Contactar />} />
-
         <Route path="/usuarios" element={<Usuarios />} />
-        <Route path="/carrito" element={<Carrito carrito={carrito} eliminarDelCarrito={eliminarDelCarrito} />}
-
-        <Route path="/products" element={<Products />} />
+        <Route path="/titulo" element={<Titulo carrito={carrito} agregarAlCarrito={agregarAlCarrito} />}/>
+        <Route path="/carrito" element={<Carrito carrito={carrito} eliminarDelCarrito={eliminarDelCarrito} />}/>
+        <Route path="/products" element={<Products carrito={carrito} agregarAlCarrito={agregarAlCarrito} />}/>
         <Route path="/Usuarios" element={<Usuarios />} />
         
       
-        <Route path="/titulo" element={<Titulo />} /> {/* ✅ Nueva ruta */}
-        <Route path="/categorias" element={<Categorias />} /> {/* ✅ Nueva ruta */}
+
 
 
       </Routes>

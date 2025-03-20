@@ -3,6 +3,20 @@ import React, { useState, useEffect } from 'react';
 const Titulo = ({ agregarAlCarrito }) => {
     const [productos, setProductos] = useState([]);
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     useEffect(() => {
         fetch('https://fakestoreapi.com/products')
             .then(res => res.json())
@@ -12,6 +26,36 @@ const Titulo = ({ agregarAlCarrito }) => {
             })
             .catch(error => console.error("Error al cargar productos:", error));
     }, []);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
 
     return (
         <div>

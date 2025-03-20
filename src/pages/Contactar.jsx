@@ -20,20 +20,6 @@ const Contactar = () => {
           Si tienes alguna duda, pregunta o comentario sobre nuestros productos, no dudes en ponerte en contacto con nosotros. Nuestro equipo está disponible para ofrecerte el mejor soporte.
         </p>
 
-    return (
-        <>
-        
-        <div className='main'>
-        <h1>About Us</h1>
-        </div>
-
-
-        
-       
-        </>
-    )
-
-
         <p>
           <strong>Dirección:</strong> Calle Ficticia 123, Ciudad Imaginaria, CP 45678
         </p>
