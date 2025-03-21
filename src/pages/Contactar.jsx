@@ -17,11 +17,12 @@ const Contactar = () => {
         <h2>Estamos aquí para ayudarte</h2>
 
         <p>
-          Si tienes alguna duda, pregunta o comentario sobre nuestros productos, no dudes en ponerte en contacto con nosotros. Nuestro equipo está disponible para ofrecerte el mejor soporte.
+          Si tienes alguna duda, pregunta o comentario sobre nuestros productos, no dudes en ponerte en contacto con nosotros.<br/>
+           Nuestro equipo está disponible para ofrecerte el mejor soporte.
         </p>
 
         <p>
-          <strong>Dirección:</strong> Calle Ficticia 123, Ciudad Imaginaria, CP 45678
+          <strong>Dirección:</strong> Calle Ficticia 123, Ciudad Imaginaria, CP 20100
         </p>
 
         <p>

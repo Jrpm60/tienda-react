@@ -5,14 +5,13 @@ const ProductosList = ({ categoriaSelected, agregarAlCarrito }) => {
    const [filteredProducts, setFilteredProducts] = useState([]);
    const [selecDescripcion, setselecDescripcion] = useState('');
    const [ventDescripcion, setVentDescripcion] = useState(false);
-   const [addedToCart, setAddedToCart] = useState({}); // Estado para el tick verde
 
    useEffect(() => {
       fetch('https://fakestoreapi.com/products')
          .then((res) => res.json())
          .then((data) => {
             setProducts(data);
-            setFilteredProducts(data); // Inicialmente mostrar todos los productos
+            setFilteredProducts(data);
          })
          .catch((err) => console.error('Error al obtener datos:', err));
    }, []);
@@ -27,20 +26,6 @@ const ProductosList = ({ categoriaSelected, agregarAlCarrito }) => {
          setFilteredProducts(products);
       }
    }, [categoriaSelected, products]);
-
-   const handleAddToCart = (product) => {
-      agregarAlCarrito(product);
-      setAddedToCart((prevState) => ({
-         ...prevState,
-         [product.id]: true, // Marca el producto como añadido
-      }));
-      setTimeout(() => {
-         setAddedToCart((prevState) => ({
-            ...prevState,
-            [product.id]: false, // Oculta el tick después de 2 segundos
-         }));
-      }, 2000);
-   };
 
    const handleOpenModal = (description) => {
       setselecDescripcion(description);
@@ -78,16 +63,13 @@ const ProductosList = ({ categoriaSelected, agregarAlCarrito }) => {
                   >
                      Detalles
                   </button>
+                  {/* Conectar botón de agregar al carrito */}
                   <button
                      className="add-to-carrito-button"
-                     onClick={() => handleAddToCart(product)}
+                     onClick={() => agregarAlCarrito(product)}
                   >
                      🛒 Añadir al carrito
                   </button>
-                  {addedToCart[product.id] && (
-                     <span className="tick-icon">Añadiendo al carrito ✔️</span>
-                     )}
-                  
                </div>
             ))}
          </div>
@@ -113,7 +95,5 @@ const ProductosList = ({ categoriaSelected, agregarAlCarrito }) => {
 };
 
 export default ProductosList;
-
-
 
 

@@ -342,3 +342,33 @@
   background-color: #218838; /* Verde más oscuro */
 
 }
+
+.add-to-carrito-button {
+  position: relative;
+  background-color: #ffc107;
+  color: #333;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 14px;
+  margin-right: 10px; /* Añadimos un margen derecho para el tick */
+}
+
+.add-to-carrito-button:hover {
+  background-color: #e0a800;
+}
+
+.tick-icon {
+  color: #28a745; /* Verde */
+  font-size: 16px;
+  animation: fadeInOut 2s ease-in-out;
+  display: inline-block; /* Para que esté alineado al lado del botón */
+  vertical-align: middle; /* Alineación vertical con el botón */
+}
+
+@keyframes fadeInOut {
+  0% { opacity: 0; }
+  50% { opacity: 1; }
+  100% { opacity: 0; }
+}
