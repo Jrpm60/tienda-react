@@ -5,7 +5,7 @@ import logo from "../assets/logo192.png"; // Import logo
 const Contactar = () => {
 
   return (
-    <>
+    <div class="main">
       <h1>Contactar con Nosotros</h1>
 
 
@@ -42,7 +42,7 @@ const Contactar = () => {
         </p>
         
       </section>
-    </>
+    </div>
   );
 }
 

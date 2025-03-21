@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 const About = () => {
   return (
-    <>
+    <div class="main">
       <h1>Sobre Nosotros</h1>
 
       <section className="about-us-container">
@@ -27,7 +27,7 @@ const About = () => {
 
         <Link to="/contactar" className="contact-link">Contáctanos</Link>
       </section>
-    </>
+    </div>
   );
 }
 
