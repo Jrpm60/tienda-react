@@ -15,15 +15,16 @@ const Products = ({ agregarAlCarrito }) => {
 
   return (
     <div className="main">
-      <h1 className="products-title">PRODUCTOS</h1>
+      <h1 className="products-title">Galeria de Productos</h1>
       <div className="buttons-container">
+        <SelectCategorias onCategoriaChange={setCategoriaSeleccionada} />
         <button
           className="products-button"
           onClick={() => setCategoriaSeleccionada("")}
         >
-          Ver Todos
+          Ver Todo
         </button>
-        <SelectCategorias onCategoriaChange={setCategoriaSeleccionada} />
+        
       </div>
       
       {/* Llamar a ProductosList con la categoría seleccionada */}

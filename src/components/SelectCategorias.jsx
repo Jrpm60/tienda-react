@@ -8,9 +8,9 @@ const SelectCategorias = ({ onCategoriaChange }) => {
   };
 
   return (
-    <div>
+    <div class="categorias_filter">
       <select name="categorias" id="categorias" onChange={handleChange}>
-        <option value="">--- Elige una opción ---</option>
+        <option value="">--- Elige una Categoria ---</option>
         {categorias.map((categoria, index) => (
           <option key={index} value={categoria}>
             {categoria}

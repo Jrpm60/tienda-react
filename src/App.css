@@ -60,6 +60,7 @@
 
 .products-title {
   text-align: center;
+  color: rgb(112, 89, 165);
 }
 
 /* Botón principal */
@@ -67,7 +68,7 @@
   display: inline-block;
   margin-right: 10px; /* Espaciado entre botones */
   padding: 10px 20px;
-  background-color: #5a58d3;
+  background-color: #2ec43b;
   color: #fff;
   border: none;
   border-radius: 5px;
@@ -371,4 +372,19 @@
   0% { opacity: 0; }
   50% { opacity: 1; }
   100% { opacity: 0; }
+}
+
+.categorias_filter {
+  display: inline-block;
+  margin-right: 10px; /* Espaciado entre botones */
+  padding: 10px 20px;
+  background-color: #30c544;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+
+
+
 }

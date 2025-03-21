@@ -3,6 +3,8 @@ import { Route, Routes } from "react-router-dom";
 import Navbar from "./components/Navbar/Navbar";
 import Head from "./components/Head/Head";
 import Footer from "./components/Footer/Footer";
+import Chat from "./components/Chat/Chat"; 
+
 
 import Home from "./pages/Home";
 import About from "./pages/About";
@@ -44,6 +46,8 @@ function App() {
         <Route path="/products" element={<Products carrito={carrito} agregarAlCarrito={agregarAlCarrito} />} />
         <Route path="/usuarios" element={<Usuarios />} />
       </Routes>
+
+      <Chat/>
 
       <Footer title="©️ Iñigo Bermejo & Jose R. Pablo" />
     </>
